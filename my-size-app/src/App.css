@@ -1,0 +1,45 @@
+/* App.css */
+.body {
+  color: yellow;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h2 {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+table {
+  background-color: #F0F0F0;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 16px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #CCCCCC;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+p {
+  color: #777777;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}

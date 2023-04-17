@@ -3,7 +3,7 @@ import React from "react";
 const GreetingMessage = () => {
   return (
     <div>
-      <h1>Welcome to the Dress Size Guide!</h1>
+      <h1>Welcome to the CDLP Size Guide!</h1>
       <p>
         Please provide the following measurements to find your perfect dress
         size.

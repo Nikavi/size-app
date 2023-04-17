@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import GreetingMessage from "./GreetingMessage";
 import MeasurementInputs from "./MeasurementInputs";
 import DressLength from "./DressLength";
+import Coverall from "./Coverall";
+import "./App.css"; // Import the custom CSS file for CDLP's branding
 
 const App = () => {
   // State to hold measurements, dress length, and sleeve length
@@ -27,7 +29,9 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container">
+      {" "}
+      {/* Apply container class for center alignment */}
       <GreetingMessage />
       <MeasurementInputs
         measurements={measurements}
@@ -37,6 +41,7 @@ const App = () => {
         dressLength={dressLength}
         onChange={handleDressLengthChange}
       />
+      <Coverall /> {/* Render the Coverall component */}
     </div>
   );
 };
