@@ -3,7 +3,7 @@ import GreetingMessage from "./GreetingMessage";
 import MeasurementInputs from "./MeasurementInputs";
 import DressLength from "./DressLength";
 import Coverall from "./Coverall";
-import "./App.css"; // Import the custom CSS file for CDLP's branding
+// import "./App.css"; // Import the custom CSS file for CDLP's branding
 
 const App = () => {
   // State to hold measurements, dress length, and sleeve length
